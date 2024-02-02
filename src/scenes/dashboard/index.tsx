@@ -49,8 +49,6 @@ const gridTemplateSmallScreens = `
 `;
 
 const Dashboard = () => {
-
-  const palette = useTheme();
   const isAboveMediumScreens = useMediaQuery('(min-width: 1200px)');
   
   return (
